@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/hereEat/hereEat",
+    "pages/take-out/take-out",
+    "pages/besides/besides",
+    "pages/indent/indent",
+    "pages/bill/bill",
+    "pages/statement/statement"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFA600",
+    "navigationBarTitleText": "美食汇微菜单",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,28 @@
+<view class='box'>
+  <view class='left'>
+    <block wx:for="{{listLeft}}" wx:key = "*this">
+      <text>
+        {{item}}      
+      </text>
+    </block>
+  </view>
+  <view class='right'>
+    <scroll-view style="height:1100rpx" scroll-y="false">
+      <block wx:for="{{menu}}" wx:key="*this">
+        <view class='rightMenu'>
+          <view class='rightItem'>
+            <text>{{item.name}}</text>
+            <text class='price'>{{item.price}}</text>
+          </view>
+          <checkbox class='checkboxId'/>
+        </view>
+      </block>
+    </scroll-view>
+  </view>  
+</view>
+<view class='bottom'>
+  <view>
+    <!-- <text class='iconfont icon-gouwuche8' style='font-size:50px;color:red'></text> -->
+    <text>￥{{priceTotle}}</text>
+  </view>   
+</view>
